@@ -49,19 +49,6 @@ Manually creating video content is like solving a puzzle with missing pieces—s
 
 Perfect for startups, content creators, or HR agencies looking to automate video content (e.g., job ads or company culture videos).
 
-## 🗂️ Repository Structure
-
-```
-├── workflows/
-│   └── video-automation-workflow.json  # Main n8n workflow configuration
-├── scripts/
-│   └── preprocess-text.js             # Example script for cleaning OpenAI output
-├── docs/
-│   └── setup-guide.md                 # Detailed setup instructions
-├── .gitignore                         # Ignores sensitive files (e.g., .env)
-├── README.md                          # You're reading it!
-└── LICENSE                            # MIT License
-```
 
 ## 🚀 Getting Started
 
@@ -79,18 +66,11 @@ Perfect for startups, content creators, or HR agencies looking to automate video
 - **Environment**: Node.js (for scripts), basic JavaScript knowledge.
 - **Coffee**: Because automation is cool, but caffeine is cooler.
 
-### Installation
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/your-username/video-content-automation.git
-   cd video-content-automation
-   ```
 2. **Set up n8n**:
    - Import `workflows/video-automation-workflow.json` into your n8n instance.
    - Configure credentials for each service in n8n (see `docs/setup-guide.md`).
 3. **Add environment variables**:
-   Create a `.env` file in your n8n instance:
-   ```env
+   Add them to your CREDENTIALS field in n8n.
    HACKER_NEWS_API_URL=https://hacker-news.firebaseio.com/v0
    OPENAI_API_KEY=your-openai-key
    HEYGEN_API_KEY=your-heygen-key
