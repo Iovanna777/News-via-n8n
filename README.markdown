@@ -22,7 +22,6 @@ This workflow automates the entire pipeline of creating and publishing video con
 - **News**: "AI Breakthrough in Robotics"
 - **Title**: "Robots Are Thinking Now! 🤖 #AI"
 - **Short Description**: "New AI tech makes robots smarter than ever!"
-- **Video**: [Demo Video (Placeholder)](https://example.com/demo-video.mp4)
 - **Logged in Google Sheets**: News URL, title, description, video link, timestamp.
 
 ## 🛠️ Connected Services
@@ -108,10 +107,6 @@ Perfect for startups, content creators, or HR agencies looking to automate video
    - Check Telegram for previews.
    - Verify videos on TikTok/YouTube and logs in Google Sheets.
 
-### Quick Demo
-![n8n Workflow Demo](https://example.com/demo.gif)  
-*See the workflow in action: news fetched, video generated, and published in ~1 hour!*
-
 ## ❓ FAQ
 
 - **What if Heygen API is slow?**  
@@ -139,11 +134,8 @@ Perfect for startups, content creators, or HR agencies looking to automate video
 - **TikTok API**: Posting requires manual OAuth setup (TikTok’s API is quirky).
 - **Error Handling**: Basic retries included; complex edge cases may need custom nodes.
 
-## 🤝 Contributing
-Found a bug or have a killer idea? Open an issue or submit a PR! Let’s make this workflow legendary. 🙌
-
 ## 📜 License
 MIT License. Use it, tweak it, love it—just don’t blame me if your videos go *too* viral. 😜
 
 ## 🙋‍♀️ Author
-Built with 💖 by [Your Name]. Fresh off a real-world n8n project, I’m ready to automate the world! Ping me on [Your GitHub/Twitter/Telegram] for collabs or coffee chats.
+Built with 💖 by E8 (me and my friends). 
